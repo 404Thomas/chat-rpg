@@ -3,4 +3,6 @@ project(Rpg_chat C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(Rpg_chat main.c)
+add_executable(Rpg_chat main.c
+        basic.c
+        basic.h)
